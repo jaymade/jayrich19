@@ -1,0 +1,30 @@
+p {
+  font-size: 1.2em;
+}
+
+
+.stain {
+  background-image: url('/assets/stain.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.pen {
+  background-image: url('/assets/pen.png'), url('/assets/book.png');
+  background-position: -30px top, right top ;
+  background-repeat: no-repeat, no-repeat;
+}
+
+@media only screen and (max-width: 375px) {
+  .stain {
+    background-image: url('/assets/stain.png');
+    background-position: 50px top;
+    background-repeat: no-repeat;
+  }
+
+  .pen {
+    background-image: url('/assets/pen.png'), url('/assets/book.png');
+    background-position: -100px top, right 10px;
+    background-repeat: no-repeat, no-repeat;
+  }
+}
