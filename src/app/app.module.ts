@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { NavComponent } from './nav/nav.component';
-import { AboutComponent } from './about/about.component';
-import { SplashComponent } from './splash/splash.component';
-import { ResumeComponent } from './resume/resume.component';
-import { HistoryComponent } from './history/history.component';
-import { EdComponent } from './ed/ed.component';
 import { FooterComponent } from './footer/footer.component';
+
+import { SplashComponent } from './splash/splash.component';
+import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ResumeComponent } from './skills/resume/resume.component';
+import { EdComponent } from './skills/ed/ed.component';
+import { CandoComponent } from './skills/cando/cando.component';
+import { SummaryComponent } from './skills/summary/summary.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +23,12 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     SplashComponent,
     ResumeComponent,
-    HistoryComponent,
     EdComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    SkillsComponent,
+    CandoComponent,
+    SummaryComponent,
   ],
   imports: [
     BrowserModule,
