@@ -4,13 +4,58 @@
 	 viewBox="0 0 1280 1024" style="enable-background:new 0 0 1280 1024;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:#0071BC;}
-	.st2{font-family:'TrebuchetMS-Bold';}
-	.st3{font-size:96.3416px;}
-	.st4{font-family:'TrebuchetMS';}
+	.st1{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;stroke-dasharray:13.3333,10;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;stroke-dasharray:13.3333,10,13.3333,10;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;stroke-dasharray:22.7273,17.0455;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;stroke-dasharray:22.7273,17.0455,22.7273,17.0455;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;stroke-dasharray:22.8485,17.1364;}
+	.st7{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;stroke-dasharray:22.8485,17.1364,22.8485,17.1364;}
+	.st8{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;stroke-dasharray:13.6667,10.25;}
+	.st9{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;stroke-dasharray:13.6667,10.25,13.6667,10.25;}
+	.st10{fill:#077373;}
+	.st11{font-family:'TrebuchetMS-Bold';}
+	.st12{font-size:96.3416px;}
+	.st13{font-family:'TrebuchetMS';}
+	.st14{fill:none;}
 </style>
 <g>
-	<path class="st0" d="M757.54,223.13v104h-399v-104H757.54 M758.54,222.13h-401v106h401V222.13L758.54,222.13z"/>
+	<g>
+		<path class="st0" d="M757.5,223.1v104h-399v-104H757.5 M758.5,222.1h-401v106h401V222.1L758.5,222.1z"/>
+		<g>
+			<g>
+				<line class="st1" x1="757.5" y1="223.1" x2="757.5" y2="235.1"/>
+				<line class="st2" x1="757.5" y1="245.1" x2="757.5" y2="263.5"/>
+				<line class="st3" x1="757.5" y1="268.5" x2="757.5" y2="310.1"/>
+				<polyline class="st1" points="757.5,315.1 757.5,327.1 745.5,327.1 				"/>
+				<line class="st4" x1="728.5" y1="327.1" x2="697.2" y2="327.1"/>
+				<line class="st5" x1="688.7" y1="327.1" x2="379.1" y2="327.1"/>
+				<polyline class="st1" points="370.5,327.1 358.5,327.1 358.5,315.1 				"/>
+				<line class="st2" x1="358.5" y1="305.1" x2="358.5" y2="286.8"/>
+				<line class="st3" x1="358.5" y1="281.8" x2="358.5" y2="240.1"/>
+				<polyline class="st1" points="358.5,235.1 358.5,223.1 370.5,223.1 				"/>
+				<line class="st4" x1="387.6" y1="223.1" x2="418.8" y2="223.1"/>
+				<line class="st5" x1="427.4" y1="223.1" x2="737" y2="223.1"/>
+				<line class="st1" x1="745.5" y1="223.1" x2="757.5" y2="223.1"/>
+			</g>
+			<g>
+				<polyline class="st1" points="758.5,234.1 758.5,222.1 746.5,222.1 				"/>
+				<line class="st6" x1="729.4" y1="222.1" x2="698" y2="222.1"/>
+				<line class="st7" x1="689.4" y1="222.1" x2="378.1" y2="222.1"/>
+				<polyline class="st1" points="369.5,222.1 357.5,222.1 357.5,234.1 				"/>
+				<line class="st8" x1="357.5" y1="244.4" x2="357.5" y2="263.2"/>
+				<line class="st9" x1="357.5" y1="268.3" x2="357.5" y2="311"/>
+				<polyline class="st1" points="357.5,316.1 357.5,328.1 369.5,328.1 				"/>
+				<line class="st6" x1="386.7" y1="328.1" x2="418.1" y2="328.1"/>
+				<line class="st7" x1="426.7" y1="328.1" x2="738" y2="328.1"/>
+				<polyline class="st1" points="746.5,328.1 758.5,328.1 758.5,316.1 				"/>
+				<line class="st8" x1="758.5" y1="305.9" x2="758.5" y2="287.1"/>
+				<line class="st9" x1="758.5" y1="282" x2="758.5" y2="239.3"/>
+			</g>
+		</g>
+	</g>
 </g>
-<text transform="matrix(1 0 0 1 374.855 305.4563)"><tspan x="0" y="0" class="st1 st2 st3">JAY</tspan><tspan x="171.42" y="0" class="st0 st4 st3">RICH</tspan></text>
+<text transform="matrix(1 0 0 1 374.855 305.4563)" class="st10 st11 st12">JAY</text>
+<text transform="matrix(1 0 0 1 546.275 305.4563)" class="st0 st13 st12">RICH</text>
+<rect x="340" y="209" class="st14" width="438" height="131"/>
 </svg>

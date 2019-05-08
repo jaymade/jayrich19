@@ -1,27 +1,27 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
   <a class="navbar-brand" routerLink="/">
     <img src="/assets/jayRich.png" alt="Jay Rich">
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse " id="mainNav">
 
     <ul class="navbar-nav ml-auto ">
-      <li class="nav-item active">
+      <li class="nav-item" [routerLinkActive]="['active']">
         <a class="nav-link" routerLink="home">
           <i class="fas fa-home"></i> </a>
       </li>
-      <li class="nav-item active">
+      <li class="nav-item " [routerLinkActive]="['active']">
         <a class="nav-link" routerLink="about">About </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="skills">Skills</a>
+        <a class="nav-link" [routerLinkActive]=" ['active']" routerLink="skills">Skills</a>
       </li>
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle disabled" routerLink="" id="dropdown01" data-toggle="dropdown">Other
+        <a class="nav-link dropdown-toggle disabled" href="#" id="dropdown01" data-toggle="dropdown">Other
           Sites</a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Art</a>
